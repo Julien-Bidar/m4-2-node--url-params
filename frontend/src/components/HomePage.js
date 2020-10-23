@@ -14,7 +14,7 @@ const HomePage = () => {
         setArtists(json.data);
       });
   }, []);
-
+  //console.log(artists);
   return (
     <>
       <Header pageTitle="Music Homepage" />
